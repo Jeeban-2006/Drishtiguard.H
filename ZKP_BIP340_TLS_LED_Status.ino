@@ -53,10 +53,10 @@
 // WIFI
 // ============================================================
 
-const char* WIFI_SSID = "iotnetwork";
+const char* WIFI_SSID = "";//name
 
 const char* WIFI_PASSWORD =
-    "1234567890";
+    "";//your password
 
 
 // ============================================================
@@ -64,16 +64,16 @@ const char* WIFI_PASSWORD =
 // ============================================================
 
 const char* MQTT_SERVER =
-    "192.168.137.218";
+    "";
 
 const uint16_t MQTT_PORT =
     1883;
 
 const char* MQTT_USERNAME =
-    "esp32auth";
+    "";
 
 const char* MQTT_PASSWORD =
-    "1234567890";
+    "";
 
 
 // ============================================================
@@ -144,7 +144,7 @@ const char* RESPONSE_TOPIC =
 // ============================================================
 
 const char* SECRET_HEX =
-    "4c50c81ca2fea6309d3bea1571a9fc4849de29686f2034cfaeaee71a263b3db1";
+    "";
 
 
 // ============================================================
